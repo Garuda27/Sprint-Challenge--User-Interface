@@ -144,3 +144,50 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 15px;
+}
+
+.lights{
+    padding: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.aboutdiv{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-top: 20px;
+}
+.aboutp{
+    width: 300px;
+}
+.row{
+    display:flex;
+    flex-flow:row wrap;
+    align-content: space-between;
+}
+.bottomrow{
+    margin-left: 225px;
+    width: 900px;
+}
+.column{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-top: 20px;
+    padding-left:20px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
